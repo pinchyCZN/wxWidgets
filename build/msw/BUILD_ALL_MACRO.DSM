@@ -1,0 +1,34 @@
+'------------------------------------------------------------------------------
+'FILE DESCRIPTION: New Macro File
+'------------------------------------------------------------------------------
+
+Sub BUILDALLPROJECTS()
+'DESCRIPTION: build all projects
+
+Dim projCol
+Dim configCol
+Dim numProjects
+Dim numConfigs
+Dim i
+Dim j
+set projCol = Projects
+numProjects = projCol.Count
+For i=1 To numProjects
+   Dim proj
+   set proj = projCol(i)
+   If proj.Type = "Build" Then
+      set configCol = proj.Configurations
+      numConfigs = configCol.Count
+      For j=1 to numConfigs
+         Dim config
+         set config = configCol(j)
+		 'msgbox config.name
+		 'exit sub
+		 if instr(ucase(config.name),ucase("Win32 Unicode Debug")) then
+			Build config
+		 end if
+      Next
+   End If
+Next
+
+End Sub

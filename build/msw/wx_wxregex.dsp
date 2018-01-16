@@ -1,5 +1,5 @@
-# Microsoft Developer Studio Project File - Name="wx_wxregex" - Package Owner=<4>
-# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# Microsoft Developer Studio Project File - Name="wxregex" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 60000
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Static Library" 0x0104
@@ -54,8 +54,8 @@ RSC=rc.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivudll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivu" /Fd..\..\lib\vc_dll\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivu" /Fd..\..\lib\vc_dll\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswunivu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexu.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswunivu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexu.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -77,8 +77,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivuddll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivud" /Zi /Fd..\..\lib\vc_dll\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivud" /Zi /Fd..\..\lib\vc_dll\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswunivud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexud.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswunivud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexud.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -100,8 +100,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivdll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswuniv" /Fd..\..\lib\vc_dll\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswuniv" /Fd..\..\lib\vc_dll\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswuniv" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_dll\wxregex.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswuniv" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_dll\wxregex.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -123,8 +123,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivddll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivd" /Zi /Fd..\..\lib\vc_dll\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswunivd" /Zi /Fd..\..\lib\vc_dll\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswunivd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_dll\wxregexd.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswunivd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_dll\wxregexd.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -146,8 +146,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswudll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswu" /Fd..\..\lib\vc_dll\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswu" /Fd..\..\lib\vc_dll\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexu.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\mswu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexu.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -169,8 +169,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswuddll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswud" /Zi /Fd..\..\lib\vc_dll\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswud" /Zi /Fd..\..\lib\vc_dll\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexud.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_dll\wxregexud.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -192,8 +192,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswdll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\msw" /Fd..\..\lib\vc_dll\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\msw" /Fd..\..\lib\vc_dll\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\msw" /D "WIN32" /D "_LIB" /D "__WXMSW__" /Fd"..\..\lib\vc_dll\wxregex.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_dll\msw" /D "WIN32" /D "_LIB" /D "__WXMSW__" /Fd"..\..\lib\vc_dll\wxregex.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -215,8 +215,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswddll\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswd" /Zi /Fd..\..\lib\vc_dll\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_dll\mswd" /Zi /Fd..\..\lib\vc_dll\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /Fd"..\..\lib\vc_dll\wxregexd.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_dll\mswd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /Fd"..\..\lib\vc_dll\wxregexd.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -238,8 +238,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivu\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivu" /Fd..\..\lib\vc_lib\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivu" /Fd..\..\lib\vc_lib\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswunivu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexu.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswunivu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexu.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -261,8 +261,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivud\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivud" /Zi /Fd..\..\lib\vc_lib\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivud" /Zi /Fd..\..\lib\vc_lib\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswunivud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexud.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswunivud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexud.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -284,8 +284,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswuniv\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswuniv" /Fd..\..\lib\vc_lib\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswuniv" /Fd..\..\lib\vc_lib\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswuniv" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_lib\wxregex.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswuniv" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_lib\wxregex.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -307,8 +307,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivd\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivd" /Zi /Fd..\..\lib\vc_lib\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswunivd" /Zi /Fd..\..\lib\vc_lib\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswunivd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_lib\wxregexd.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswunivd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /Fd"..\..\lib\vc_lib\wxregexd.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -330,8 +330,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswu\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswu" /Fd..\..\lib\vc_lib\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswu" /Fd..\..\lib\vc_lib\wxregexu.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexu.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\mswu" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexu.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -353,8 +353,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswud\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswud" /Zi /Fd..\..\lib\vc_lib\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswud" /Zi /Fd..\..\lib\vc_lib\wxregexud.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexud.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MTd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswud" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "_UNICODE" /Fd"..\..\lib\vc_lib\wxregexud.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -376,8 +376,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_msw\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\msw" /Fd..\..\lib\vc_lib\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /c
-# ADD CPP /nologo /FD /MD /W1 /O2 /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\msw" /Fd..\..\lib\vc_lib\wxregex.pdb /D "WIN32" /D "_LIB" /D "__WXMSW__" /c
+# ADD BASE CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\msw" /D "WIN32" /D "_LIB" /D "__WXMSW__" /Fd"..\..\lib\vc_lib\wxregex.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /GR /O2 /I "..\..\include" /I "..\..\lib\vc_lib\msw" /D "WIN32" /D "_LIB" /D "__WXMSW__" /Fd"..\..\lib\vc_lib\wxregex.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -399,8 +399,8 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswd\wxregex"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswd" /Zi /Fd..\..\lib\vc_lib\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /c
-# ADD CPP /nologo /FD /MDd /W1 /Od /Gm /GR /EHsc /I "..\..\include" /I "..\..\lib\vc_lib\mswd" /Zi /Fd..\..\lib\vc_lib\wxregexd.pdb /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /c
+# ADD BASE CPP /nologo /MDd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /Fd"..\..\lib\vc_lib\wxregexd.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MTd /Gm /GR /Zi /Od /I "..\..\include" /I "..\..\lib\vc_lib\mswd" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /Fd"..\..\lib\vc_lib\wxregexd.pdb" /FD /EHsc /c
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -410,7 +410,7 @@ LIB32=link.exe -lib
 # ADD BASE LIB32 /nologo /out:"..\..\lib\vc_lib\wxregexd.lib"
 # ADD LIB32 /nologo /out:"..\..\lib\vc_lib\wxregexd.lib"
 
-!ENDIF
+!ENDIF 
 
 # Begin Target
 
@@ -462,7 +462,7 @@ SOURCE=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivu\wx\msw"
+"..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -472,7 +472,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivud\wx\msw"
+"..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -482,7 +482,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswuniv\wx\msw"
+"..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -492,7 +492,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivd\wx\msw"
+"..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -502,7 +502,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswu\wx\msw"
+"..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -512,7 +512,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswud\wx\msw"
+"..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -522,7 +522,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\msw\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\msw\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\msw\wx\msw"
+"..\..\lib\vc_dll\msw\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\msw\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -532,7 +532,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswd\wx\msw"
+"..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -542,7 +542,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivu\wx\msw"
+"..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -552,7 +552,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivud\wx\msw"
+"..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -562,7 +562,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswuniv\wx\msw"
+"..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -572,7 +572,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivd\wx\msw"
+"..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -582,7 +582,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswu\wx\msw"
+"..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -592,7 +592,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswud\wx\msw"
+"..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -602,7 +602,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\msw\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\msw\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\msw\wx\msw"
+"..\..\lib\vc_lib\msw\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\msw\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -612,12 +612,12 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswd\wx\msw"
+"..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h"
 
 # End Custom Build
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -626,27 +626,11 @@ SOURCE=..\..\include\wx\msw\setup.h
 
 !IF  "$(CFG)" == "wxregex - Win32 DLL Universal Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Universal Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Universal Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Universal Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Unicode Release"
 
@@ -690,27 +674,11 @@ InputPath=..\..\include\wx\msw\setup.h
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Universal Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Universal Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Universal Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Universal Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Unicode Release"
 
@@ -752,7 +720,7 @@ InputPath=..\..\include\wx\msw\setup.h
 
 # End Custom Build
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -801,27 +769,11 @@ InputPath=..\..\include\wx\univ\setup.h
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 DLL Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Universal Unicode Release"
 
@@ -865,32 +817,15 @@ InputPath=..\..\include\wx\univ\setup.h
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "wxregex - Win32 Debug"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # End Group
 # End Target
 # End Project
-

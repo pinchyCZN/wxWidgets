@@ -1,5 +1,5 @@
-# Microsoft Developer Studio Project File - Name="wx_core" - Package Owner=<4>
-# Microsoft Developer Studio Generated Build File, Format Version 6.00
+# Microsoft Developer Studio Project File - Name="core" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 60000
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Dynamic-Link Library" 0x0102
@@ -40,8 +40,6 @@ CFG=core - Win32 Debug
 # PROP AllowPerConfigDependencies 0
 # PROP Scc_ProjName ""
 # PROP Scc_LocalPath ""
-CPP=cl.exe
-RSC=rc.exe
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
@@ -55,18 +53,23 @@ RSC=rc.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivudll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswunivu" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivudll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswunivu" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivudll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswunivu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivudll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswunivu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivudll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "_UNICODE" /i "..\..\lib\vc_dll\mswunivu" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28u_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "_UNICODE" /i "..\..\lib\vc_dll\mswunivu" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28u_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivu" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28u_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivu" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28u_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28u_core.lib" /pdb:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb"
-# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28u_core.lib" /pdb:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28u_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28u_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28u_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
 
@@ -80,18 +83,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivuddll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswunivud" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivuddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswunivud" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivuddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswunivud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivuddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswunivud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivuddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "_UNICODE" /i "..\..\lib\vc_dll\mswunivud" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28ud_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "_UNICODE" /i "..\..\lib\vc_dll\mswunivud" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28ud_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivud" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28ud_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivud" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28ud_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28ud_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb"
-# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28ud_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28ud_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28ud_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28ud_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
@@ -105,18 +113,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivdll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswuniv" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivdll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswuniv" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivdll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswuniv" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivdll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswuniv" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivdll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /i "..\..\lib\vc_dll\mswuniv" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /i "..\..\lib\vc_dll\mswuniv" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswuniv" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswuniv" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "NDEBUG" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28_core.lib" /pdb:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb"
-# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28_core.lib" /pdb:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
 
@@ -130,18 +143,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswunivddll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswunivd" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswunivd" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswunivddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswunivd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswunivd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswunivddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /i "..\..\lib\vc_dll\mswunivd" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28d_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /i "..\..\lib\vc_dll\mswunivd" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28d_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivd" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28d_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswunivd" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXUNIVERSAL__" /d "__WXDEBUG__" /d "WXBUILDING" /d WXDLLNAME=wxmswuniv28d_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28d_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb"
-# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmswuniv28d_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28d_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmswuniv28d_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmswuniv28d_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -155,18 +173,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswudll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswu" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswudll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\mswu" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswudll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswudll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\mswu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswudll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "__WXMSW__" /d "NDEBUG" /d "_UNICODE" /i "..\..\lib\vc_dll\mswu" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28u_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "__WXMSW__" /d "NDEBUG" /d "_UNICODE" /i "..\..\lib\vc_dll\mswu" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28u_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswu" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "NDEBUG" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmsw28u_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswu" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "NDEBUG" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmsw28u_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28u_core.lib" /pdb:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb"
-# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28u_core.lib" /pdb:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28u_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregexu.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28u.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28u_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28u_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
 
@@ -180,18 +203,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswuddll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswud" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswuddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswud" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswuddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswuddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswuddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "_UNICODE" /i "..\..\lib\vc_dll\mswud" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28ud_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "_UNICODE" /i "..\..\lib\vc_dll\mswud" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28ud_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswud" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmsw28ud_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswud" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "_UNICODE" /d "WXBUILDING" /d WXDLLNAME=wxmsw28ud_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28ud_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb"
-# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28ud_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28ud_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexud.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28ud.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28ud_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28ud_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
@@ -205,18 +233,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswdll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\msw" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswdll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_dll\msw" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswdll\wxprec_coredll.pch" /Fd..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\msw" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswdll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_dll\msw" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswdll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "__WXMSW__" /d "NDEBUG" /i "..\..\lib\vc_dll\msw" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "__WXMSW__" /d "NDEBUG" /i "..\..\lib\vc_dll\msw" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\msw" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "NDEBUG" /d "WXBUILDING" /d WXDLLNAME=wxmsw28_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\msw" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "__WXMSW__" /d "NDEBUG" /d "WXBUILDING" /d WXDLLNAME=wxmsw28_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28_core.lib" /pdb:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb"
-# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28_core.lib" /pdb:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiff.lib wxjpeg.lib wxpng.lib wxzlib.lib wxregex.lib wxexpat.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28.lib /nologo /dll /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
 
@@ -230,18 +263,23 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_dll"
 # PROP Intermediate_Dir "vc_mswddll\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswd" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_dll\mswd" /I "..\..\include" /W4 /Yu"wx/wxprec.h" /Fp"vc_mswddll\wxprec_coredll.pch" /Zi /Fd..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_dll\mswd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /Fp"vc_mswddll\wxprec_coredll.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb" /FD /EHsc /c
+MTL=midl.exe
 # ADD BASE MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
 # ADD MTL /nologo /D "WIN32" /D "_USRDLL" /D "DLL_EXPORTS" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D "WXUSINGDLL" /D "WXMAKINGDLL_CORE" /D wxUSE_BASE=0 /mktyplib203 /win32
-# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /i "..\..\lib\vc_dll\mswd" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28d_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
-# ADD RSC /l 0x409 /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /i "..\..\lib\vc_dll\mswd" /i "..\..\include" /d "WXBUILDING" /d WXDLLNAME=wxmsw28d_core_vc_custom /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+RSC=rc.exe
+# ADD BASE RSC /l 0x409 /i "..\..\lib\vc_dll\mswd" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "WXBUILDING" /d WXDLLNAME=wxmsw28d_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
+# ADD RSC /l 0x409 /i "..\..\lib\vc_dll\mswd" /i "..\..\include" /i "..\..\src\tiff" /i "..\..\src\jpeg" /i "..\..\src\png" /i "..\..\src\zlib" /i "..\..\src\regex" /i "..\..\src\expat\lib" /d "_DEBUG" /d "__WXMSW__" /d "__WXDEBUG__" /d "WXBUILDING" /d WXDLLNAME=wxmsw28d_core_vc_custom /d "WXUSINGDLL" /d "WXMAKINGDLL_CORE" /d wxUSE_BASE=0
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
 LINK32=link.exe
-# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28d_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb"
-# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /machine:i386 /out:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.dll" /libpath:"..\..\lib\vc_dll" /implib:"..\..\lib\vc_dll\wxmsw28d_core.lib" /debug /pdb:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.pdb"
+# ADD BASE LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28d_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT BASE LINK32 /pdb:none
+# ADD LINK32 wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib kernel32.lib user32.lib gdi32.lib comdlg32.lib winspool.lib winmm.lib shell32.lib comctl32.lib ole32.lib oleaut32.lib uuid.lib rpcrt4.lib advapi32.lib wsock32.lib odbc32.lib ..\..\lib\vc_dll\wxbase28d.lib /nologo /dll /debug /machine:I386 /out:"..\..\lib\vc_dll\wxmsw28d_core_vc_custom.dll" /implib:"..\..\lib\vc_dll\wxmsw28d_core.lib" /libpath:"..\..\lib\vc_dll"
+# SUBTRACT LINK32 /pdb:none
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -255,8 +293,10 @@ LINK32=link.exe
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivu\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswunivu" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmswuniv28u_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivu\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswunivu" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmswuniv28u_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivu\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswunivu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivu\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28u_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswunivu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivu\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28u_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -278,8 +318,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivud\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswunivud" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmswuniv28ud_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivud\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswunivud" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmswuniv28ud_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivud\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswunivud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivud\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28ud_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswunivud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivud\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28ud_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -301,8 +343,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswuniv\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswuniv" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmswuniv28_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswuniv\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswuniv" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmswuniv28_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswuniv\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswuniv" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswuniv\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswuniv" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswuniv\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -324,8 +368,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswunivd\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswunivd" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmswuniv28d_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivd\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswunivd" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmswuniv28d_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswunivd\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswunivd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivd\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28d_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswunivd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXUNIVERSAL__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswunivd\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmswuniv28d_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -347,8 +393,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswu\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswu" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmsw28u_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswu\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\mswu" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmsw28u_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswu\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswu\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28u_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\mswu" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswu\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28u_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -370,8 +418,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswud\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswud" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmsw28ud_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswud\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswud" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmsw28ud_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswud\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswud\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28ud_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MTd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswud" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "_UNICODE" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswud\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28ud_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -393,8 +443,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_msw\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\msw" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmsw28_core.pdb /Yu"wx/wxprec.h" /Fp"vc_msw\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MD /O2 /GR /EHsc /I "..\..\lib\vc_lib\msw" /I "..\..\include" /W4 /Fd..\..\lib\vc_lib\wxmsw28_core.pdb /Yu"wx/wxprec.h" /Fp"vc_msw\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\msw" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_msw\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MD /W4 /GR /O2 /I "..\..\lib\vc_lib\msw" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "__WXMSW__" /D "NDEBUG" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_msw\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -416,8 +468,10 @@ LIB32=link.exe -lib
 # PROP Output_Dir "..\..\lib\vc_lib"
 # PROP Intermediate_Dir "vc_mswd\core"
 # PROP Target_Dir ""
-# ADD BASE CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswd" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmsw28d_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswd\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /c
-# ADD CPP /nologo /FD /MDd /Od /Gm /GR /EHsc /I "..\..\lib\vc_lib\mswd" /I "..\..\include" /W4 /Zi /Fd..\..\lib\vc_lib\wxmsw28d_core.pdb /Yu"wx/wxprec.h" /Fp"vc_mswd\wxprec_corelib.pch" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /c
+CPP=cl.exe
+# ADD BASE CPP /nologo /MDd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswd\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28d_core.pdb" /FD /EHsc /c
+# ADD CPP /nologo /MTd /W4 /Gm /GR /Zi /Od /I "..\..\lib\vc_lib\mswd" /I "..\..\include" /I "..\..\src\tiff" /I "..\..\src\jpeg" /I "..\..\src\png" /I "..\..\src\zlib" /I "..\..\src\regex" /I "..\..\src\expat\lib" /D "WIN32" /D "_LIB" /D "_DEBUG" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXBUILDING" /D wxUSE_BASE=0 /Fp"vc_mswd\wxprec_corelib.pch" /Yu"wx/wxprec.h" /Fd"..\..\lib\vc_lib\wxmsw28d_core.pdb" /FD /EHsc /c
+RSC=rc.exe
 # ADD BASE RSC /l 0x409
 # ADD RSC /l 0x409
 BSC32=bscmake.exe
@@ -427,7 +481,7 @@ LIB32=link.exe -lib
 # ADD BASE LIB32 /nologo /out:"..\..\lib\vc_lib\wxmsw28d_core.lib"
 # ADD LIB32 /nologo /out:"..\..\lib\vc_lib\wxmsw28d_core.lib"
 
-!ENDIF
+!ENDIF 
 
 # Begin Target
 
@@ -858,15 +912,11 @@ SOURCE=..\..\src\msw\accel.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -886,17 +936,13 @@ SOURCE=..\..\src\msw\accel.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -921,15 +967,11 @@ SOURCE=..\..\src\msw\ole\access.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -949,17 +991,13 @@ SOURCE=..\..\src\msw\ole\access.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -996,15 +1034,11 @@ SOURCE=..\..\src\msw\bmpbuttn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1024,17 +1058,13 @@ SOURCE=..\..\src\msw\bmpbuttn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1063,15 +1093,11 @@ SOURCE=..\..\src\msw\button.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1091,17 +1117,13 @@ SOURCE=..\..\src\msw\button.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1130,15 +1152,11 @@ SOURCE=..\..\src\msw\checkbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1158,17 +1176,13 @@ SOURCE=..\..\src\msw\checkbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1193,15 +1207,11 @@ SOURCE=..\..\src\msw\checklst.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1221,17 +1231,13 @@ SOURCE=..\..\src\msw\checklst.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1256,15 +1262,11 @@ SOURCE=..\..\src\msw\choice.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1284,17 +1286,13 @@ SOURCE=..\..\src\msw\choice.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1323,15 +1321,11 @@ SOURCE=..\..\src\msw\colordlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1351,17 +1345,13 @@ SOURCE=..\..\src\msw\colordlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1390,15 +1380,11 @@ SOURCE=..\..\src\msw\combo.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1418,17 +1404,13 @@ SOURCE=..\..\src\msw\combo.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1453,15 +1435,11 @@ SOURCE=..\..\src\msw\combobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1481,17 +1459,13 @@ SOURCE=..\..\src\msw\combobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1516,15 +1490,11 @@ SOURCE=..\..\src\msw\control.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1544,17 +1514,13 @@ SOURCE=..\..\src\msw\control.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1611,15 +1577,11 @@ SOURCE=..\..\src\msw\dialog.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1639,17 +1601,13 @@ SOURCE=..\..\src\msw\dialog.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1682,15 +1640,11 @@ SOURCE=..\..\src\msw\dirdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1710,17 +1664,13 @@ SOURCE=..\..\src\msw\dirdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1749,15 +1699,11 @@ SOURCE=..\..\src\msw\dragimag.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1777,17 +1723,13 @@ SOURCE=..\..\src\msw\dragimag.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1828,15 +1770,11 @@ SOURCE=..\..\src\msw\fdrepdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1856,17 +1794,13 @@ SOURCE=..\..\src\msw\fdrepdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1891,15 +1825,11 @@ SOURCE=..\..\src\msw\filedlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1919,17 +1849,13 @@ SOURCE=..\..\src\msw\filedlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -1958,15 +1884,11 @@ SOURCE=..\..\src\msw\fontdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -1986,17 +1908,13 @@ SOURCE=..\..\src\msw\fontdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2029,15 +1947,11 @@ SOURCE=..\..\src\msw\frame.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2057,17 +1971,13 @@ SOURCE=..\..\src\msw\frame.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2092,15 +2002,11 @@ SOURCE=..\..\src\msw\gauge95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2120,17 +2026,13 @@ SOURCE=..\..\src\msw\gauge95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2187,15 +2089,11 @@ SOURCE=..\..\src\msw\iniconf.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2215,17 +2113,13 @@ SOURCE=..\..\src\msw\iniconf.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2250,15 +2144,11 @@ SOURCE=..\..\src\msw\listbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2278,17 +2168,13 @@ SOURCE=..\..\src\msw\listbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2313,15 +2199,11 @@ SOURCE=..\..\src\msw\listctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2341,17 +2223,13 @@ SOURCE=..\..\src\msw\listctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2380,15 +2258,11 @@ SOURCE=..\..\src\msw\mdi.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2408,17 +2282,13 @@ SOURCE=..\..\src\msw\mdi.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2443,15 +2313,11 @@ SOURCE=..\..\src\msw\menu.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2471,17 +2337,13 @@ SOURCE=..\..\src\msw\menu.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2506,15 +2368,11 @@ SOURCE=..\..\src\msw\menuitem.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2534,17 +2392,13 @@ SOURCE=..\..\src\msw\menuitem.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2569,15 +2423,11 @@ SOURCE=..\..\src\msw\metafile.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2597,17 +2447,13 @@ SOURCE=..\..\src\msw\metafile.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2636,15 +2482,11 @@ SOURCE=..\..\src\msw\msgdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2664,17 +2506,13 @@ SOURCE=..\..\src\msw\msgdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2703,15 +2541,11 @@ SOURCE=..\..\src\msw\nativdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2731,17 +2565,13 @@ SOURCE=..\..\src\msw\nativdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2766,15 +2596,11 @@ SOURCE=..\..\src\msw\notebook.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2794,17 +2620,13 @@ SOURCE=..\..\src\msw\notebook.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2833,15 +2655,11 @@ SOURCE=..\..\src\msw\ownerdrw.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2861,17 +2679,13 @@ SOURCE=..\..\src\msw\ownerdrw.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2916,15 +2730,11 @@ SOURCE=..\..\src\msw\radiobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -2944,17 +2754,13 @@ SOURCE=..\..\src\msw\radiobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -2979,15 +2785,11 @@ SOURCE=..\..\src\msw\radiobut.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3007,17 +2809,13 @@ SOURCE=..\..\src\msw\radiobut.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3050,15 +2848,11 @@ SOURCE=..\..\src\msw\scrolbar.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3078,17 +2872,13 @@ SOURCE=..\..\src\msw\scrolbar.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3117,15 +2907,11 @@ SOURCE=..\..\src\msw\slider95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3145,17 +2931,13 @@ SOURCE=..\..\src\msw\slider95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3180,15 +2962,11 @@ SOURCE=..\..\src\msw\spinbutt.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3208,17 +2986,13 @@ SOURCE=..\..\src\msw\spinbutt.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3243,15 +3017,11 @@ SOURCE=..\..\src\msw\spinctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3271,17 +3041,13 @@ SOURCE=..\..\src\msw\spinctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3306,15 +3072,11 @@ SOURCE=..\..\src\msw\statbmp.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3334,17 +3096,13 @@ SOURCE=..\..\src\msw\statbmp.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3369,15 +3127,11 @@ SOURCE=..\..\src\msw\statbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3397,17 +3151,13 @@ SOURCE=..\..\src\msw\statbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3432,15 +3182,11 @@ SOURCE=..\..\src\msw\statbr95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3460,17 +3206,13 @@ SOURCE=..\..\src\msw\statbr95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3495,15 +3237,11 @@ SOURCE=..\..\src\msw\statline.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3523,17 +3261,13 @@ SOURCE=..\..\src\msw\statline.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3558,15 +3292,11 @@ SOURCE=..\..\src\msw\stattext.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3586,17 +3316,13 @@ SOURCE=..\..\src\msw\stattext.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3621,15 +3347,11 @@ SOURCE=..\..\src\msw\tabctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3649,17 +3371,13 @@ SOURCE=..\..\src\msw\tabctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3684,15 +3402,11 @@ SOURCE=..\..\src\msw\tbar95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3712,17 +3426,13 @@ SOURCE=..\..\src\msw\tbar95.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3747,15 +3457,11 @@ SOURCE=..\..\src\msw\textctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3775,17 +3481,13 @@ SOURCE=..\..\src\msw\textctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3810,15 +3512,11 @@ SOURCE=..\..\src\msw\tglbtn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3838,17 +3536,13 @@ SOURCE=..\..\src\msw\tglbtn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3885,15 +3579,11 @@ SOURCE=..\..\src\msw\treectrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3913,17 +3603,13 @@ SOURCE=..\..\src\msw\treectrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -3944,27 +3630,19 @@ SOURCE=..\..\src\msw\version.rc
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -3998,7 +3676,7 @@ SOURCE=..\..\src\msw\version.rc
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4019,15 +3697,11 @@ SOURCE=..\..\src\generic\accel.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4047,15 +3721,11 @@ SOURCE=..\..\src\generic\accel.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4073,7 +3743,7 @@ SOURCE=..\..\src\generic\accel.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4106,15 +3776,11 @@ SOURCE=..\..\src\generic\colrdlgg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4134,15 +3800,11 @@ SOURCE=..\..\src\generic\colrdlgg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4160,7 +3822,7 @@ SOURCE=..\..\src\generic\colrdlgg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4181,15 +3843,11 @@ SOURCE=..\..\src\generic\dirdlgg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4209,15 +3867,11 @@ SOURCE=..\..\src\generic\dirdlgg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4235,7 +3889,7 @@ SOURCE=..\..\src\generic\dirdlgg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4248,15 +3902,11 @@ SOURCE=..\..\src\generic\fdrepdlg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4276,15 +3926,11 @@ SOURCE=..\..\src\generic\fdrepdlg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4302,7 +3948,7 @@ SOURCE=..\..\src\generic\fdrepdlg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4311,15 +3957,11 @@ SOURCE=..\..\src\generic\filedlgg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4339,15 +3981,11 @@ SOURCE=..\..\src\generic\filedlgg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4365,7 +4003,7 @@ SOURCE=..\..\src\generic\filedlgg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4378,15 +4016,11 @@ SOURCE=..\..\src\generic\fontdlgg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4406,15 +4040,11 @@ SOURCE=..\..\src\generic\fontdlgg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4432,7 +4062,7 @@ SOURCE=..\..\src\generic\fontdlgg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4453,15 +4083,11 @@ SOURCE=..\..\src\generic\listctrl.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4481,15 +4107,11 @@ SOURCE=..\..\src\generic\listctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4507,7 +4129,7 @@ SOURCE=..\..\src\generic\listctrl.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4520,15 +4142,11 @@ SOURCE=..\..\src\generic\mdig.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4548,15 +4166,11 @@ SOURCE=..\..\src\generic\mdig.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4574,7 +4188,7 @@ SOURCE=..\..\src\generic\mdig.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4583,15 +4197,11 @@ SOURCE=..\..\src\generic\msgdlgg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4611,15 +4221,11 @@ SOURCE=..\..\src\generic\msgdlgg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4637,7 +4243,7 @@ SOURCE=..\..\src\generic\msgdlgg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4706,15 +4312,11 @@ SOURCE=..\..\src\generic\statusbr.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -4734,17 +4336,13 @@ SOURCE=..\..\src\generic\statusbr.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4753,15 +4351,11 @@ SOURCE=..\..\src\generic\tabg.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4781,15 +4375,11 @@ SOURCE=..\..\src\generic\tabg.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4807,7 +4397,7 @@ SOURCE=..\..\src\generic\tabg.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4848,15 +4438,11 @@ SOURCE=..\..\src\univ\bmpbuttn.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4876,15 +4462,11 @@ SOURCE=..\..\src\univ\bmpbuttn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4902,7 +4484,7 @@ SOURCE=..\..\src\univ\bmpbuttn.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4911,15 +4493,11 @@ SOURCE=..\..\src\univ\button.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -4939,15 +4517,11 @@ SOURCE=..\..\src\univ\button.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -4965,7 +4539,7 @@ SOURCE=..\..\src\univ\button.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -4974,15 +4548,11 @@ SOURCE=..\..\src\univ\checkbox.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5002,15 +4572,11 @@ SOURCE=..\..\src\univ\checkbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5028,7 +4594,7 @@ SOURCE=..\..\src\univ\checkbox.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5037,15 +4603,11 @@ SOURCE=..\..\src\univ\checklst.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5065,15 +4627,11 @@ SOURCE=..\..\src\univ\checklst.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5091,7 +4649,7 @@ SOURCE=..\..\src\univ\checklst.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5100,15 +4658,11 @@ SOURCE=..\..\src\univ\choice.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5128,15 +4682,11 @@ SOURCE=..\..\src\univ\choice.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5154,7 +4704,7 @@ SOURCE=..\..\src\univ\choice.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5163,15 +4713,11 @@ SOURCE=..\..\src\univ\colschem.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5191,15 +4737,11 @@ SOURCE=..\..\src\univ\colschem.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5217,7 +4759,7 @@ SOURCE=..\..\src\univ\colschem.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5226,15 +4768,11 @@ SOURCE=..\..\src\univ\combobox.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5254,15 +4792,11 @@ SOURCE=..\..\src\univ\combobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5280,7 +4814,7 @@ SOURCE=..\..\src\univ\combobox.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5289,15 +4823,11 @@ SOURCE=..\..\src\univ\control.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5317,15 +4847,11 @@ SOURCE=..\..\src\univ\control.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5343,7 +4869,7 @@ SOURCE=..\..\src\univ\control.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5352,15 +4878,11 @@ SOURCE=..\..\src\univ\ctrlrend.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5380,15 +4902,11 @@ SOURCE=..\..\src\univ\ctrlrend.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5406,7 +4924,7 @@ SOURCE=..\..\src\univ\ctrlrend.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5415,15 +4933,11 @@ SOURCE=..\..\src\univ\dialog.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5443,15 +4957,11 @@ SOURCE=..\..\src\univ\dialog.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5469,7 +4979,7 @@ SOURCE=..\..\src\univ\dialog.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5478,15 +4988,11 @@ SOURCE=..\..\src\univ\framuniv.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5506,15 +5012,11 @@ SOURCE=..\..\src\univ\framuniv.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5532,7 +5034,7 @@ SOURCE=..\..\src\univ\framuniv.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5541,15 +5043,11 @@ SOURCE=..\..\src\univ\gauge.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5569,15 +5067,11 @@ SOURCE=..\..\src\univ\gauge.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5595,7 +5089,7 @@ SOURCE=..\..\src\univ\gauge.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5604,15 +5098,11 @@ SOURCE=..\..\src\univ\themes\gtk.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5632,15 +5122,11 @@ SOURCE=..\..\src\univ\themes\gtk.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5658,7 +5144,7 @@ SOURCE=..\..\src\univ\themes\gtk.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5667,15 +5153,11 @@ SOURCE=..\..\src\univ\inpcons.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5695,15 +5177,11 @@ SOURCE=..\..\src\univ\inpcons.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5721,7 +5199,7 @@ SOURCE=..\..\src\univ\inpcons.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5730,15 +5208,11 @@ SOURCE=..\..\src\univ\inphand.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5758,15 +5232,11 @@ SOURCE=..\..\src\univ\inphand.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5784,7 +5254,7 @@ SOURCE=..\..\src\univ\inphand.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5793,15 +5263,11 @@ SOURCE=..\..\src\univ\listbox.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5821,15 +5287,11 @@ SOURCE=..\..\src\univ\listbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5847,7 +5309,7 @@ SOURCE=..\..\src\univ\listbox.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5856,15 +5318,11 @@ SOURCE=..\..\src\univ\menu.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5884,15 +5342,11 @@ SOURCE=..\..\src\univ\menu.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5910,7 +5364,7 @@ SOURCE=..\..\src\univ\menu.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5919,15 +5373,11 @@ SOURCE=..\..\src\univ\themes\metal.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -5947,15 +5397,11 @@ SOURCE=..\..\src\univ\themes\metal.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -5973,7 +5419,7 @@ SOURCE=..\..\src\univ\themes\metal.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -5982,15 +5428,11 @@ SOURCE=..\..\src\univ\themes\mono.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6010,15 +5452,11 @@ SOURCE=..\..\src\univ\themes\mono.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6036,7 +5474,7 @@ SOURCE=..\..\src\univ\themes\mono.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6045,15 +5483,11 @@ SOURCE=..\..\src\univ\notebook.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6073,15 +5507,11 @@ SOURCE=..\..\src\univ\notebook.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6099,7 +5529,7 @@ SOURCE=..\..\src\univ\notebook.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6108,15 +5538,11 @@ SOURCE=..\..\src\univ\radiobox.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6136,15 +5562,11 @@ SOURCE=..\..\src\univ\radiobox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6162,7 +5584,7 @@ SOURCE=..\..\src\univ\radiobox.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6171,15 +5593,11 @@ SOURCE=..\..\src\univ\radiobut.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6199,15 +5617,11 @@ SOURCE=..\..\src\univ\radiobut.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6225,7 +5639,7 @@ SOURCE=..\..\src\univ\radiobut.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6234,15 +5648,11 @@ SOURCE=..\..\src\univ\scrarrow.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6262,15 +5672,11 @@ SOURCE=..\..\src\univ\scrarrow.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6288,7 +5694,7 @@ SOURCE=..\..\src\univ\scrarrow.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6297,15 +5703,11 @@ SOURCE=..\..\src\univ\scrolbar.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6325,15 +5727,11 @@ SOURCE=..\..\src\univ\scrolbar.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6351,7 +5749,7 @@ SOURCE=..\..\src\univ\scrolbar.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6360,15 +5758,11 @@ SOURCE=..\..\src\univ\scrthumb.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6388,15 +5782,11 @@ SOURCE=..\..\src\univ\scrthumb.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6414,7 +5804,7 @@ SOURCE=..\..\src\univ\scrthumb.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6423,15 +5813,11 @@ SOURCE=..\..\src\univ\slider.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6451,15 +5837,11 @@ SOURCE=..\..\src\univ\slider.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6477,7 +5859,7 @@ SOURCE=..\..\src\univ\slider.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6486,15 +5868,11 @@ SOURCE=..\..\src\univ\spinbutt.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6514,15 +5892,11 @@ SOURCE=..\..\src\univ\spinbutt.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6540,7 +5914,7 @@ SOURCE=..\..\src\univ\spinbutt.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6549,15 +5923,11 @@ SOURCE=..\..\src\univ\statbmp.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6577,15 +5947,11 @@ SOURCE=..\..\src\univ\statbmp.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6603,7 +5969,7 @@ SOURCE=..\..\src\univ\statbmp.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6612,15 +5978,11 @@ SOURCE=..\..\src\univ\statbox.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6640,15 +6002,11 @@ SOURCE=..\..\src\univ\statbox.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6666,7 +6024,7 @@ SOURCE=..\..\src\univ\statbox.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6675,15 +6033,11 @@ SOURCE=..\..\src\univ\statline.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6703,15 +6057,11 @@ SOURCE=..\..\src\univ\statline.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6729,7 +6079,7 @@ SOURCE=..\..\src\univ\statline.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6738,15 +6088,11 @@ SOURCE=..\..\src\univ\stattext.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6766,15 +6112,11 @@ SOURCE=..\..\src\univ\stattext.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6792,7 +6134,7 @@ SOURCE=..\..\src\univ\stattext.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6801,15 +6143,11 @@ SOURCE=..\..\src\univ\statusbr.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6829,15 +6167,11 @@ SOURCE=..\..\src\univ\statusbr.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6855,7 +6189,7 @@ SOURCE=..\..\src\univ\statusbr.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6864,15 +6198,11 @@ SOURCE=..\..\src\univ\stdrend.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6892,15 +6222,11 @@ SOURCE=..\..\src\univ\stdrend.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6918,7 +6244,7 @@ SOURCE=..\..\src\univ\stdrend.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6927,15 +6253,11 @@ SOURCE=..\..\src\univ\textctrl.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -6955,15 +6277,11 @@ SOURCE=..\..\src\univ\textctrl.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -6981,7 +6299,7 @@ SOURCE=..\..\src\univ\textctrl.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -6990,15 +6308,11 @@ SOURCE=..\..\src\univ\tglbtn.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7018,15 +6332,11 @@ SOURCE=..\..\src\univ\tglbtn.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7044,7 +6354,7 @@ SOURCE=..\..\src\univ\tglbtn.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7053,15 +6363,11 @@ SOURCE=..\..\src\univ\theme.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7081,15 +6387,11 @@ SOURCE=..\..\src\univ\theme.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7107,7 +6409,7 @@ SOURCE=..\..\src\univ\theme.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7116,15 +6418,11 @@ SOURCE=..\..\src\univ\toolbar.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7144,15 +6442,11 @@ SOURCE=..\..\src\univ\toolbar.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7170,7 +6464,7 @@ SOURCE=..\..\src\univ\toolbar.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7179,15 +6473,11 @@ SOURCE=..\..\src\univ\topluniv.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7207,15 +6497,11 @@ SOURCE=..\..\src\univ\topluniv.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7233,7 +6519,7 @@ SOURCE=..\..\src\univ\topluniv.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7242,15 +6528,11 @@ SOURCE=..\..\src\univ\themes\win32.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7270,15 +6552,11 @@ SOURCE=..\..\src\univ\themes\win32.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7296,7 +6574,7 @@ SOURCE=..\..\src\univ\themes\win32.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7305,15 +6583,11 @@ SOURCE=..\..\src\univ\winuniv.cpp
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7333,15 +6607,11 @@ SOURCE=..\..\src\univ\winuniv.cpp
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7359,7 +6629,7 @@ SOURCE=..\..\src\univ\winuniv.cpp
 
 # PROP Exclude_From_Build 1
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # End Group
@@ -7372,27 +6642,11 @@ SOURCE=..\..\include\wx\msw\setup.h
 
 !IF  "$(CFG)" == "core - Win32 DLL Universal Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Universal Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
@@ -7436,27 +6690,11 @@ InputPath=..\..\include\wx\msw\setup.h
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
@@ -7498,7 +6736,7 @@ InputPath=..\..\include\wx\msw\setup.h
 
 # End Custom Build
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -7547,27 +6785,11 @@ InputPath=..\..\include\wx\univ\setup.h
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 DLL Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 Universal Unicode Release"
 
@@ -7611,29 +6833,13 @@ InputPath=..\..\include\wx\univ\setup.h
 
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 Unicode Debug"
-
-# Begin Custom Build - 
-
-# End Custom Build
 
 !ELSEIF  "$(CFG)" == "core - Win32 Release"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
 !ELSEIF  "$(CFG)" == "core - Win32 Debug"
 
-# Begin Custom Build - 
-
-# End Custom Build
-
-!ENDIF
+!ENDIF 
 
 # End Source File
 # End Group
@@ -7825,7 +7031,7 @@ SOURCE=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivu\wx\msw"
+"..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7835,7 +7041,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivud\wx\msw"
+"..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7845,7 +7051,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswuniv\wx\msw"
+"..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswuniv\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7855,7 +7061,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswunivd\wx\msw"
+"..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswunivd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7865,7 +7071,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswu\wx\msw"
+"..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7875,7 +7081,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswud\wx\msw"
+"..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7885,7 +7091,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\msw\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\msw\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\msw\wx\msw"
+"..\..\lib\vc_dll\msw\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\msw\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7895,7 +7101,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_dll\mswd\wx\msw"
+"..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_dll\mswd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7905,7 +7111,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivu\wx\msw"
+"..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7915,7 +7121,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivud\wx\msw"
+"..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7925,7 +7131,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswuniv\wx\msw"
+"..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswuniv\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7935,7 +7141,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswunivd\wx\msw"
+"..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswunivd\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7945,7 +7151,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswu\wx\msw"
+"..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswu\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7955,7 +7161,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswud\wx\msw"
+"..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswud\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7965,7 +7171,7 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\msw\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\msw\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\msw\wx\msw"
+"..\..\lib\vc_lib\msw\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\msw\wx\msw\rcdefs.h"
 
 # End Custom Build
@@ -7975,12 +7181,12 @@ InputPath=..\..\include\wx\msw\genrcdefs.h
 # Begin Custom Build - Creating ..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h
 InputPath=..\..\include\wx\msw\genrcdefs.h
 
-"..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h" : "$(SOURCE)" "..\..\lib\vc_lib\mswd\wx\msw"
+"..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
 	cl /EP /nologo "$(InputPath)" > "..\..\lib\vc_lib\mswd\wx\msw\rcdefs.h"
 
 # End Custom Build
 
-!ENDIF
+!ENDIF 
 
 # End Source File
 # Begin Source File
@@ -9682,4 +8888,3 @@ SOURCE=..\..\include\wx\xpmhand.h
 # End Group
 # End Target
 # End Project
-
