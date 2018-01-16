@@ -1,0 +1,7 @@
+*.lib
+*.obj
+*.pch
+*.plg
+*.idb
+*.pdb
+*.ncb
